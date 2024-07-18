@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.erro{
+    position: relative;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    color: red;
+    top: 300px;
+
+}
+
+.logo{
+    position: relative;
+    text-align: center;
+    padding: 3%;
+    
+}
+
+.box-login{
+    font-family: arial, sans-serif;
+    color: rgb(0, 0, 0);
+    max-width: 600px;
+    width: 50%;
+    padding: 40px 7%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.box-login h2{
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: Andale Mono, monospace;
+}
+
+.form {
+    margin-bottom: 20px;
+    font-size: 17px;
+ 
+}
+
+.form label{
+    margin-left: 1%;
+    color: #000000;
+    display: block;
+    margin-bottom: 1px;
+    font-size: 16px;
+}
+
+.form input::placeholder{
+    color:  #ccc;
+    font-size: 15px;
+}
+
+.form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #000000;
+}
+
+.txt{
+    font-size: 14px;
+    padding: 30px;
+    text-align: center;
+}
+
+.btn{
+    width: 100%;
+    padding: 7px;
+    background-color: #11387d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+
+
